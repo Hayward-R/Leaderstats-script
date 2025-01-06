@@ -1,0 +1,19 @@
+local funtion HB(size, CFrame, char)
+
+	local target = nil
+
+	local hb = Instance.new("Part")
+	hb.size = size
+	hb.CFrame = CFrame
+	hb.Material = "Force Feild"
+	hb.Transparency = 0.9
+
+	for i, v in pairs(hb:GetTouchingParts)
+
+		if not v.Parent.Humanoid then return end
+
+		if 
+	
+
+	end
+end
